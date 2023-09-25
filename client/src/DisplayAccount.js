@@ -25,7 +25,6 @@ const DisplayAccount = props => {
 					if (curr.isInvoiceable && curr.currency == "USDT"){
 					return (
 						<div className='CurrencyDisplay' key={curr.currency}>
-							<h3> {curr.currency} </h3>
 							<CreateInvoice currency={curr.currency} 
 								handle={props.userInfo.handle}
 								passUpInvoice={passUpInvoice}

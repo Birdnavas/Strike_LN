@@ -24,7 +24,7 @@ const QRCard = (props) => {
 					<div className = 'QR'>
 						<QRCode value={props.invoiceAndQuote.quote.lnInvoice}/>
 					</div>
-					<h3> {props.invoiceAndQuote.invoice.state}</h3>
+					<h3> </h3>
 				</React.Fragment>
 			}
 			<CountdownTimer targetDate={targetDate} floatUpExpiredNotice={receiveExpiredNotice} />
